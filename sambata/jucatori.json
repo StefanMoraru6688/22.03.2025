@@ -1,0 +1,40 @@
+{
+
+    "cluburi" : [
+        {
+            "milan" : [
+                {
+          "nume" :"Theo Hernadez",
+            "pozitie" : "Defender",
+            "meciuri-jucate" : 26 ,
+            "goluri" : 3
+                },
+                {
+                    "nume" : "Samuel.C",
+                    "pozitie" :"Forward",
+                    "meciuri-jucate" : 3,
+                    "goluri" : 0
+                }
+            ]
+        },
+        {
+            "real madrid" : [
+                {
+                    "nume" : "Vinicus",
+                    "pozitie" : "Forward",
+                    "varsta" : "24",
+                    "goluri" : 21
+                },
+                {
+                    "nume" : "Mbappe",
+                    "pozitie" : "forward"
+                }
+            ]
+        }
+    ] 
+    
+    
+}  
+    
+
+
