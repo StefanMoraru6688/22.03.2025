@@ -38,6 +38,36 @@
           </div>
         </div>
       </nav> 
+      <button onclick="afisare()">test</button>
+      <script>
+        function afisare(){
+          var divCard = document.createElement("div");
+          var paragraph = document.createElement("p");
+          divCard.className ="card";
+          divCard.className ="div-parinte";
+          paragraph.textContent = "p-copil";
+          paragraph.style.textAlign = "centre";
+
+          paragraph.className ="p";
+          document.body.appendChild(divCard);
+          divCard.appendChild(paragraph);
+          paragraph.style.color ="red";
+
+        }
+         afisare();
+         afisare();
+         afisare(); 
+
+      </script>
+      <button onclick="imagine()">imagine</button>
+      <script>
+        function imagine(){
+          var img =document.createElement("img");
+          img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoXUJZ_-HmKL_sXrZwUbZlqWA4pbpZpuIB5Q&s";
+          document.body.appendChild(img);      
+        }
+
+      </script>
 
 
 
